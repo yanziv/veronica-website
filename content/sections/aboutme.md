@@ -4,7 +4,7 @@ My research interests are energy and environmental economics, applied microecono
 
 Before starting my PhD, I worked as an academic professional at [Institute of Technology Bandung](https://www.itb.ac.id/?n=1728695487) and as an expert consultant for various energy and environmental policy think tanks in Indonesia.
 
-__[CV](/pdf/cv_Afi.pdf)__ (Updated March 2025)
+__[CV](/pdf/cv_Afi.pdf)__ (Updated July 2025)
 
-__[My Google Scholar](https://scholar.google.com/citations?user=bpN8RCUAAAAJ)__\
-__[My GitHub](https://github.com/maghfiraer)__ 
+__[Google Scholar](https://scholar.google.com/citations?user=bpN8RCUAAAAJ)__\
+__[GitHub](https://github.com/maghfiraer)__ 
