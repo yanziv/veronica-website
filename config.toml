@@ -6,7 +6,7 @@ defaultContentLanguage = "en"
 ignorefiles = [ "hugo_travis_ci", ".travis.yml" ]
 
 [params]
-    shortbio = "PhD Student, Georgia Institute of Technology"
+    shortbio = "PhD Student in Economics, Georgia Institute of Technology"
     logo = "Afi_headshot.jpg" 
 
 [services]
