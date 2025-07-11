@@ -1,8 +1,9 @@
-Welcome to my personal website! I am a PhD student at Georgia Institute of Technology, [School of Economics](https://econ.gatech.edu).
+Welcome to my website! I am a PhD student at Georgia Institute of Technology, [School of Economics](https://econ.gatech.edu). 
 
-My research interests are energy and environmental economics, applied microeconomics, and empirical industrial organization. My existing work focuses on how households and firms respond to the broad impact of climate change and the energy transition.
+I am an energy and environmental economist interested in examining the broad impact of climate change and energy transition using tools from applied microeconomics and industrial organizations. My current projects demonstrate how technology can address environmental challenges: I examine (i) how smart thermostat automation improves energy conservation during grid emergencies, and (ii) how individuals adjust their behavior to avoid pollution using physical activity data from wearable devices. In my ongoing work, I study the impact of battery storage deployment on renewable and conventional generators, specifically in Texas electricity markets.
 
-Before starting my PhD, I worked as an academic professional at [Institute of Technology Bandung](https://www.itb.ac.id/?n=1728695487) and as an expert consultant for various energy and environmental policy think tanks in Indonesia.
+Before Georgia Tech, I worked as an academic professional and consultant for various energy and environmental policy think tanks in Indonesia. I hold a B.S. and M.S. in Petroleum Engineering (specialization in Energy Economics and Policy) from [Institute of Technology Bandung](https://www.itb.ac.id/?n=1728695487), and a M.S. in Economics from Georgia Tech.
+
 
 __[CV](/pdf/cv_Afi.pdf)__ (Updated July 2025)
 
