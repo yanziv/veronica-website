@@ -1,4 +1,13 @@
 works:
+
+- title: "Managing Zero-Marginal-Cost, Intermittent Renewable Energy: A Survey of the Engineering, Economic, and Policy Challenges"
+  coauthors: "Daniel Matisoff, Matthew Oliver, Santiago Grijalva, Oliver Chapman, and Amanda West"
+  status: "Forthcoming"
+  journal: "Renewable and Sustainable Energy Reviews"
+  abstract: >
+    The integration of renewable generation such as solar and wind is crucial to achieving decarbonization objectives. This paper provides a survey of engineering, economics, and policy challenges associated with this integration, focusing primarily on the dual problems of zero-marginal-cost generation and intermittency. From the engineering perspective, we describe challenges in the operation and planning stages of electric power systems faced with increasing renewable penetration. We review the economic challenges for restructured electricity markets and highlight important implications for energy policies designed to promote growth and spur innovation in the renewable energy sector. We argue that the engineering, economic, and policy aspects of managing zero-marginal-cost, intermittent renewable energy cannot be decoupled—these challenges are inexorably linked. Hence, we describe how these three fields must work together to understand the key interactions that will make the transition to a low-carbon energy landscape a success.
+
+
 - title: "National oil companies and fossil fuel subsidy regimes in transition: The case of Indonesia"
   pdflink: "https://doi.org/10.1016/j.exis.2022.101104"
   status: "2022"
