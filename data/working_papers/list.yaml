@@ -7,3 +7,5 @@ works:
   links:
     - url: "https://maghfiraer.github.io/pdf/flexalert_CRIDC_poster.pdf"
       text: "Poster (Presented and Received Award at CRIDC@Georgia Tech 2025)"
+  abstract: >
+   We study the interaction between moral suasion and automation in managing resource scarcity. Using data from smart thermostats during a California heatwave, we exploit a natural experiment involving voluntary conservation requests (Flex Alerts) and a statewide emergency phone alert. We document three findings. First, standard moral suasion suffers from rapid habituation. Second, high-salience signals (emergency alerts) reverse this habituation. Third, and most importantly, we identify a novel complementarity between salience and automation. High-salience alerts reduce the rate at which users override automated thermostat adjustments, tripling the efficacy of demand response technology. These results suggest that 'human frictions' limit the scalability of smart technologies, but crisis salience can mitigate these frictions.
