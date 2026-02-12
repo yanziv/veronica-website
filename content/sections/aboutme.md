@@ -12,5 +12,5 @@ Prior to starting my Ph.D., I worked on projects related to Human-Computer Inter
 <!-- __[CV](/pdf/cv_Afi.pdf)__ (Updated July 2025) -->
 
 __[Google Scholar](https://scholar.google.com/citations?user=Rge8KPEAAAAJ&hl=en)__\
-__[LinkedIn](https://www.linkedin.com/in/yanzil/)__
+<!-- __[LinkedIn](https://www.linkedin.com/in/yanzil/)__ -->
 <!-- __[GitHub](https://github.com/maghfiraer)__  -->
