@@ -1,4 +1,6 @@
 relativeURLs = true
+uglyURLs = false
+canonifyURLs = true
 title = "Yanzi Lin (Veronica)"
 theme = "academimal-theme"
 sectionPagesMenu = "main"
@@ -12,3 +14,4 @@ ignorefiles = [ "hugo_travis_ci", ".travis.yml" ]
 [services]
   [services.googleAnalytics]
     ID = ''
+
