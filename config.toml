@@ -1,4 +1,5 @@
-relativeURLs = true
+baseURL = "https://yanziv.github.io/"
+relativeURLs = false
 uglyURLs = false
 canonifyURLs = true
 title = "Yanzi Lin (Veronica)"
