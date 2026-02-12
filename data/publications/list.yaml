@@ -1,18 +1,45 @@
-works:
+- year: 2025
+  works:
+  - type: "workshop"
+    title: "Measuring User Responses to Age Verification Architectures: Evidence from a Deceptive Online Experiment"
+    pdflink: "https://datatracker.ietf.org/doc/slides-agews-paper-measuring-user-responses-to-age-verification-architectures-evidence-from-a-deceptive-online-experiment/"
+    status: "2025"
+    journal: "IAB/W3C Workshop on Age-Based Restrictions on Content Access"
+    coauthors: "Yanzi Lin, Vivianna Lieu, Cheng Zhang, Weiqian Zhang, Lorrie Faith Cranor, Sarah Scheffler"
+    abstract: >
+      Following the U.S. Supreme Court’s decision in Free Speech Coalition v. Paxton (2025), which established that age verification systems must be “adequately tailored,” understanding user behavior has become legally relevant for system design. This preliminary study empirically examines how different age verification methods affect user behavior through a deceptive online experiment framed as usability testing for a mock gambling website. Participants (n=99 U.S. residents) were randomly assigned to six verification conditions, including simple checkbox self-declaration, government-issued ID upload, and AI-based facial age estimation. Results show stark differences in user responses: checkbox verification achieved 95.2% completion rates, while government ID methods drove up to 60.5% of users to return their study without finishing. We also tested the effects of privacy disclosures on completion rates. These had mixed effects, with detailed data handling information both increasing completion rates and polarizing user comfort levels. In a survey accompanying the empirical study, participants expressed significant privacy concerns about documentbased methods, citing fears of identity theft and data misuse. These findings provide empirical evidence that can be applied to the U.S. Constitutional requirement for “adequate tailoring” of age verification systems, as well as policy analysis and technical design of age verification more broadly. We outline plans for expanded research using R-rated movie content to examine these effects at larger scale.
 
-- title: "Managing Zero-Marginal-Cost, Intermittent Renewable Energy: A Survey of the Engineering, Economic, and Policy Challenges"
-  pdflink: "https://doi.org/10.1016/j.rser.2025.116334"
-  coauthors: "Daniel Matisoff, Matthew Oliver, Santiago Grijalva, Oliver Chapman, and Amanda West"
-  status: "Forthcoming at"
-  journal: "Renewable and Sustainable Energy Reviews"
-  abstract: >
-    The integration of renewable generation such as solar and wind is crucial to achieving decarbonization objectives. This paper provides a survey of engineering, economics, and policy challenges associated with this integration, focusing primarily on the dual problems of zero-marginal-cost generation and intermittency. From the engineering perspective, we describe challenges in the operation and planning stages of electric power systems faced with increasing renewable penetration. We review the economic challenges for restructured electricity markets and highlight important implications for energy policies designed to promote growth and spur innovation in the renewable energy sector. We argue that the engineering, economic, and policy aspects of managing zero-marginal-cost, intermittent renewable energy cannot be decoupled—these challenges are inexorably linked. Hence, we describe how these three fields must work together to understand the key interactions that will make the transition to a low-carbon energy landscape a success.
+  - type: "workshop"
+    title: "Carded by the Internet: Measuring User Responses to Online Age Assurance Mechanisms"
+    pdflink: "https://www.usenix.org/conference/soups2025/presentation/lin-poster"
+    status: "2025"
+    journal: "USENIX SOUPS"
+    coauthors: "Yanzi Veronica Lin, Vivianna Lieu, Cheng Zhang, Weiqian Zhang, Wenchao Hu, Lorrie Faith Cranor, and Sarah Scheffler"
+    abstract: >
+      Governments have enacted age assurance regulations to prevent minors from accessing age-restricted content online, potentially creating barriers for adult users. This preliminary study empirically examines how different age assurance methods and accompanying data handling disclosures influence user behavior. We conducted a deceptive online experiment, framed as a usability test for a simulated gambling website, followed by a survey. Participants (n=99) were randomly assigned to one of six verification conditions, ranging from simple checkbox self-declaration to more complex methods involving government-issued IDs and AI-based facial analysis. The Checkbox method had the highest completion rate and user-reported comfort, while methods involving government-issued ID verification resulted in lower completion rates and comfort. Data handling disclosures produced mixed effects on verification decisions, but this should be explored further with a larger sample. Privacy concerns were particularly pronounced for methods requiring personal identification documents, with many participants expressing reluctance to share sensitive information with unfamiliar entities.
 
 
-- title: "National oil companies and fossil fuel subsidy regimes in transition: The case of Indonesia"
-  pdflink: "https://doi.org/10.1016/j.exis.2022.101104"
-  status: "2022"
-  journal: "The Extractive Industries and Society"
-  coauthors: "Muchammad Ichsan and Matthew Lockwood"
-  abstract: >
-    It has long been recognised that national oil companies (NOCs) offer the means for funding and delivering fuel subsidies as a politically valuable good. But what happens when the oil begins to run out? Fiscal pressures will clearly increase, but there is also evidence that net importers with NOCs are still more likely to have subsidies than those without. A key question about countries moving through this transition is therefore whether and how the role of NOCs in the subsidy regime changes as the classic logic erodes. We examine these issues in a detailed case study of Indonesia, which became a net oil importer in the early 2000s. A series of partial reforms of FFS has followed, but subsidies remain and the NOC still plays a central role in their delivery. We find that certain functions of the NOC, such as obfuscating the fiscal cost of subsidies, have eroded. But increasing fiscal pressure has not so far overcome the political lock-in of subsidies and institutional inertia in the role of the NOC. Fundamental reform remains unlikely in the short term, but separating the upstream and downstream businesses of the NOC and changing its governance could help support that reform.
+
+
+- year: 2024
+  works:
+  - type: "conference"
+    title: "Data Safety vs. App Privacy: Comparing the Usability of Android and iOS Privacy Labels"
+    pdflink: "https://petsymposium.org/popets/2024/popets-2024-0047.pdf"
+    status: "2024"
+    journal: "Privacy Enhancing Technologies Symposium (PETS) 2024"
+    coauthors: "Yanzi Lin, Jaideep Juneja, Eleanor Birrell, Lorrie Faith Cranor"
+    abstract: >
+      Privacy labels -- standardized, compact representations of data collection and data use practices -- are often presented as a solution to the shortcomings of privacy policies. Apple introduced mandatory privacy labels for apps in its App Store in December 2020; Google introduced mandatory labels for Android apps in July 2022. iOS app privacy labels have been evaluated and critiqued in prior work. In this work, we evaluated Android Data Safety Labels and explored how differences between the two label designs impact user comprehension and label utility. We conducted a between-subjects, semi-structured interview study with 12 Android users and 12 iOS users. While some users found Android Data Safety Labels informative and helpful, other users found them too vague. Compared to iOS App Privacy Labels, Android users found the distinction between data collection groups more intuitive and found explicit inclusion of omitted data collection groups more salient. However, some users expressed skepticism regarding elided information about collected data type categories. Most users missed critical information due to not expanding the accordion interface, and they were surprised by collection practices excluded from Android's definitions. Our findings also revealed that Android users generally appreciated information about security practices included in the labels, and iOS users wanted that information added.
+
+- year: 2023
+  works:
+  - type: "conference"
+    title: "A US-UK Usability Evaluation of Consent Management Platform Cookie Consent Interface Design on Desktop and Mobile"
+    pdflink: "https://dl.acm.org/doi/full/10.1145/3544548.3580725"
+    status: "2023"
+    journal: "CHI Conference on Human Factors in Computing Systems"
+    coauthors: "Elijah Robert Bouma-Sims, Megan Li, Yanzi Lin, Adia Sakura-Lemessy, Alexandra Nisenoff, Ellie Young, Eleanor Birrell, Lorrie Faith Cranor, Hana Habib"
+    abstract: >
+      Websites implement cookie consent interfaces to obtain users' permission to use non-essential cookies, as required by privacy regulations. We extend prior research evaluating the impact of interface design on cookie consent through an online behavioral experiment (n = 1359) in which we prompted mobile and desktop users from the UK and US to make cookie consent decisions using one of 14 interfaces implemented with the OneTrust consent management platform (CMP). We found significant effects on user behavior and sentiment for multiple explanatory variables, including more negative sentiment towards the consent process among UK participants and lower comprehension of interface information among mobile users. The design factor that had the largest effect on user behavior was the initial set of options displayed in the cookie banner. In addition to providing more evidence of the inadequacy of current cookie consent processes, our results have implications for website operators and CMPs.
+

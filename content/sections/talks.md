@@ -1,25 +1,16 @@
 ---
-title: "Academic Presentations"
+title: "Academic Talks"
 ---
 
-### Talks
+### 2026
 
-#### 2026
 - **Measuring User Responses to Online Age Verification**  
   Privacy and Public Policy Conference (Feb 2026)  
 
-#### 2025
+### 2025
 - **Measuring User Responses to Age Verification Architectures: Evidence from a Deceptive Online Experiment**  
   IAB/W3C Workshop on Age-Based Restrictions on Content Access (Oct 2025)   
   [Slides](https://datatracker.ietf.org/doc/slides-agews-measuring-user-responses-to-age-verification-architectures-evidence-from-a-deceptive-online-experiment/) ·
   [Paper](https://www.ietf.org/slides/slides-agews-paper-measuring-user-responses-to-age-verification-architectures-evidence-from-a-deceptive-online-experiment-00.pdf)
 
----
 
-### Poster Presentations
-
-#### 2025
-- **Carded by the Internet: Measuring User Responses to Online Age Assurance Mechanisms**  
-  CyLab Partners Conference (Oct 2025)  
-  USENIX SOUPS (Aug 2025)  
-  [Poster Abstract](https://www.usenix.org/system/files/soups2025_poster5_abstract-lin.pdf)

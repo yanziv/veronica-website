@@ -19,30 +19,79 @@
 {{ $scratch := newScratch }}
 {{ $scratch.Set "pubcnt" 0 }}
 
-{{ with .Site.Data.working_papers }}
-<hr>
-<h2 id="workingpapers">Working Papers</h2>
+<!-- {{ with .Site.Data.working_papers }}
+<hr> -->
+<!-- <h2 id="workingpapers">Working Papers</h2>
 {{ range . }}
 {{ range .works }}
 {{ partial "publication.html" (dict "context" . "pid" ($scratch.Get "pubcnt")) }}
 {{ $scratch.Add "pubcnt" 1 }}   
 {{ end }}
 {{ end }}
-{{ end }}
+{{ end }} -->
 
 {{ with .Site.Data.publications }}
 <hr>
 <h2 id="publications">Publications</h2>
-{{ range . }}
-{{ range .works }}
-{{ partial "publication.html" (dict "context" . "pid" ($scratch.Get "pubcnt")) }}
-{{ $scratch.Add "pubcnt" 1 }}   
+
+<h3 style="margin-top:15px;">Conference Proceedings</h3>
+{{ range .list }}
+  {{ $year := .year }}
+  {{ $hasConference := false }}
+  {{ range .works }}
+    {{ if eq .type "conference" }}
+      {{ $hasConference = true }}
+    {{ end }}
+  {{ end }}
+  {{ if $hasConference }}
+    <h4>{{ $year }}</h4>
+    {{ range .works }}
+      {{ if eq .type "conference" }}
+        {{ partial "publication.html" (dict "context" . "pid" ($scratch.Get "pubcnt")) }}
+        {{ $scratch.Add "pubcnt" 1 }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
 {{ end }}
+
+<h3 style="margin-top:25px;">Lightly Reviewed Workshop Papers and Posters</h3>
+{{ range .list }}
+  {{ $year := .year }}
+  {{ $hasLight := false }}
+  {{ range .works }}
+    {{ if eq .type "workshop" }}
+      {{ $hasLight = true }}
+    {{ end }}
+  {{ end }}
+  {{ if $hasLight }}
+    <h4>{{ $year }}</h4>
+    {{ range .works }}
+      {{ if eq .type "workshop" }}
+        {{ partial "publication.html" (dict "context" . "pid" ($scratch.Get "pubcnt")) }}
+        {{ $scratch.Add "pubcnt" 1 }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
 {{ end }}
+
 {{ end }}
 
 
-{{ with .Site.Data.work_in_progress }}
+{{ with .GetPage "/sections/talks.md" }}
+<hr>
+<h2 id="talks">Talks</h2>
+{{ .Content }}
+{{ end }}
+
+{{ with .GetPage "/sections/posters.md" }}
+<hr>
+<h2 id="posters">Poster Presentations</h2>
+{{ .Content }}
+{{ end }}
+
+
+
+<!-- {{ with .Site.Data.work_in_progress }}
 <hr>
 <h2 id="workinprogress">Work in Progress</h2>
 {{ range . }}
@@ -51,13 +100,15 @@
 {{ $scratch.Add "pubcnt" 1 }}   
 {{ end }}
 {{ end }}
-{{ end }}
+{{ end }} -->
 
-{{ with .GetPage "/sections/conferences.md" }}
+<!-- {{ with .GetPage "/sections/conferences.md" }}
 <hr>
 <h2 id="conferences">Academic Presentations</h2>
 {{ .Content }}
-{{ end }}
+{{ end }} -->
+
+
 
 {{ with .GetPage "/sections/teach.md" }}
 <hr>
